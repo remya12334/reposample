@@ -1,11 +1,32 @@
 package polymorphism;
 
-public class OnSeason {
+public class OnSeason extends OffSeason {
 
-	int dis;
-	int tot;
-	public void discount()
-	{
+	public static void main(String[] args) {
+		
+		
+		OnSeason obj = new OnSeason();
+		obj.discount();
+		OffSeason obj1=new OffSeason();
+		obj1.discount();
+		
 		
 	}
-}
+		
+			
+			public void discount()
+			{
+				float totpurchase=6000f;
+				if (totpurchase>5000f)
+				{
+					float discount=totpurchase*(40/100f);
+					System.out.println("discount on On season is "+discount);
+				}
+			}
+			}
+		
+
+
+	
+
+
