@@ -10,7 +10,7 @@ public class Student {
 	}
 		String name;
 		int rollnumber;
-		Address address;// new object is created to build a HAS-A relationship between class A and class B(class A has Class B)
+		Address address;// new object is created to build a HAS-A relationship between class A and class B(class A has Class B),AGGREGATION
    Student(String name,int rollnumber,Address address)
 {
 			this.name=name;
