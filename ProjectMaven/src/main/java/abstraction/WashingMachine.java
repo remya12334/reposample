@@ -20,7 +20,7 @@ public class WashingMachine extends Appliance
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-WashingMachine a=new WashingMachine("IFB",700);
+Appliance a=new WashingMachine("IFB",700);
 a.showBrand();
 a.getPowerUsage();
 

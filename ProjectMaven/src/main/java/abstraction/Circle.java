@@ -13,7 +13,7 @@ public class Circle extends Shape{
 public static void main(String[]args)
 {
 	
-	Circle obj=new Circle();
+	Shape obj=new Circle();
 	 obj.display();
 	obj.CalArea();
 	

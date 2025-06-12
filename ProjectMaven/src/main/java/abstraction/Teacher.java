@@ -20,7 +20,7 @@ public class Teacher extends Person {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Teacher obj=new Teacher(50000,"remya");
+Person obj=new Teacher(50000,"remya");
 obj.printDetails();
 obj.showIncome();
 	

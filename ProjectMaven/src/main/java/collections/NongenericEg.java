@@ -12,7 +12,7 @@ public class NongenericEg {
 		a.add(10);
 		String str=(String) a.get(0); //type casting
 		int num=(Integer) a.get(1);
-		for(Object b:a)  // foreach - in nongeneric datatype is defined as object
+		for(Object b:a)  // foreach - in nongeneric, datatype is defined as object
 		{
 			System.out.println(b);
 		}

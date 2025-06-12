@@ -22,8 +22,8 @@ public class Manager extends Employee {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Employee e=new Employee("remya",1000000);
-e.displayInfo();
+//Employee e=new Employee("remya",1000000);
+//e.displayInfo();
 Manager m=new Manager("Mythily",5000000,"HR DEPARTMENT");
 m.displayInfo();
 	}

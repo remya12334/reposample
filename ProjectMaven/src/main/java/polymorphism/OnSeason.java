@@ -5,10 +5,16 @@ public class OnSeason extends OffSeason {
 	public static void main(String[] args) {
 		
 		
-		OnSeason obj = new OnSeason();
+		/*OnSeason obj = new OnSeason();
 		obj.discount();
 		OffSeason obj1=new OffSeason();
-		obj1.discount();
+		obj1.discount();*/
+		
+		OffSeason obj;
+		obj=new OnSeason();
+		obj.discount();
+		obj=new OffSeason();
+		obj.discount();
 		
 		
 	}
